@@ -6,31 +6,13 @@
   "email": "cheehongtang@hotmail.com",
   "phone": "+65 84233640",
   "source": "https://tangch5861.github.io/cheehong/",
-  "sourceNote": "Etiqa career progression and achievements updated with information supplied directly by Tang Chee Hong for 2015–2026.",
+  "sourceNote": "Career information and achievements supplied directly by Tang Chee Hong.",
   "education": [
     {
       "year": "2009",
       "title": "Bachelor’s Degree (Honours) in Computer Science",
       "institution": "Universiti Sains Malaysia",
       "description": "Completed a Bachelor’s Degree (Honours) in Computer Science at USM, Malaysia."
-    },
-    {
-      "year": "2009",
-      "title": "Adobe Flash & Dreamweaver",
-      "institution": "Universiti Sains Malaysia",
-      "description": "Certified expert in Adobe Flash and Dreamweaver."
-    },
-    {
-      "year": "2016",
-      "title": "Google Analytics",
-      "institution": "Basic & Advanced Courses",
-      "description": "Attended Google Analytics Basic and Advanced courses."
-    },
-    {
-      "year": "2018",
-      "title": "Project management training",
-      "institution": "PMP® Certification Training Course",
-      "description": "Attended PMP® certification training."
     }
   ],
   "roles": [
@@ -161,7 +143,7 @@
       "id": "etiqa",
       "company": "Etiqa Insurance",
       "role": "Engineering Manager",
-      "dates": "2015–2026",
+      "dates": "2015–Current",
       "chapter": "Connecting the bigger picture",
       "stage": "lead",
       "summary": "Progressed from web development to engineering management, building digital insurance platforms and expanding regional delivery across Singapore and Malaysia.",
@@ -207,7 +189,7 @@
           "title": "Manager, Web Development"
         },
         {
-          "period": "2023–2026",
+          "period": "2023–Current",
           "title": "Engineering Manager"
         }
       ],
@@ -257,61 +239,31 @@
   ],
   "skillGroups": [
     {
-      "name": "Interfaces & interaction",
-      "description": "Web interfaces, online stores and learning games across Gistxl, Version 2 and Memolife.",
+      "name": "Architecture & engineering judgment",
+      "description": "A foundation in hands-on engineering informs system design, integration decisions and technical review.",
       "items": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "jQuery",
-        "AngularJS",
-        "Backbone.js",
-        "Bootstrap"
+        "Architecture design",
+        "Microservices",
+        "System integration",
+        "Platform modernization"
       ]
     },
     {
-      "name": "Applications & integration",
-      "description": "Internal applications at Flextronics and connected insurance systems at Etiqa.",
+      "name": "AI-assisted development",
+      "description": "I work across AI models and tools, selecting them for the task and directing an iterative development loop.",
       "items": [
-        "C#",
-        "ASP.NET MVC",
-        "RESTful APIs",
-        "MSSQL",
-        "PHP",
-        "MySQL",
-        "MongoDB",
-        "SharePoint",
-        "Joomla CMS",
-        "Microservices architecture",
-        "Platform migration"
+        "Codex",
+        "VS Code with GitHub Copilot",
+        "AI models & coding agents",
+        "Playwright"
       ]
     },
     {
-      "name": "Design & development tools",
-      "description": "Tools used throughout interface design, implementation and team collaboration.",
+      "name": "Leadership & collaboration",
+      "description": "Connecting AI-assisted work with team development, stakeholder needs and regional delivery.",
       "items": [
-        "Photoshop",
-        "Dreamweaver",
-        "Flash / ActionScript",
-        "Visual Studio",
-        "GitHub",
-        "TFS",
-        "Slack",
-        "Trello",
-        "Notepad++"
-      ]
-    },
-    {
-      "name": "Delivery & collaboration",
-      "description": "Engineering management, recruitment, mentoring and regional delivery at Etiqa, with user support experience at Version 2.",
-      "items": [
-        "Team leadership",
-        "Deployment coordination",
-        "Resource planning",
-        "Stakeholder relationships",
-        "User support",
-        "SEO",
-        "Engineering management",
+        "M365 Copilot",
+        "Engineering leadership",
         "Recruitment & mentoring",
         "Regional delivery"
       ]
@@ -343,7 +295,7 @@
     },
     {
       "name": "A shared regional platform",
-      "context": "Etiqa · 2015–2026",
+      "context": "Etiqa · 2015–Current",
       "challenge": "Regional markets with duplicated development and legacy online insurance systems.",
       "contribution": "Led architecture modernization and Malaysia’s platform migration, then built a single-codebase, single-instance regional platform.",
       "result": "Migrated six major insurance products in 2024 and developed a unified regional platform in 2026, enabling shared capabilities across countries.",
@@ -367,8 +319,27 @@
   ],
   "closing": "Thoughtful interfaces. Connected systems. A collaborative approach.",
   "contactMessage": "Let’s talk about building something useful.",
-  "characterAgeReference": {
-    "year": 2009,
-    "age": 24
+  "professionalDevelopment": "Continued learning includes Google Analytics Basic and Advanced courses, PMP® certification training, and further courses and certifications.",
+  "toolkit": {
+    "title": "Engineering judgment. AI-driven delivery.",
+    "description": "My practice has evolved from writing every line to designing the architecture and guiding the development loop. AI handles much of the implementation; I focus on intent, context, review and validation.",
+    "steps": [
+      {
+        "name": "Define",
+        "text": "Clarify the problem, architecture, constraints and acceptance criteria."
+      },
+      {
+        "name": "Build",
+        "text": "Guide AI models and coding agents with context and focused tasks."
+      },
+      {
+        "name": "Validate",
+        "text": "Review the implementation and exercise user journeys with Playwright."
+      },
+      {
+        "name": "Refine",
+        "text": "Feed findings back into the next iteration and improve the result."
+      }
+    ]
   }
 }

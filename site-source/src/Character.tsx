@@ -1,16 +1,12 @@
-import resume from './resume.json';
-
-// Approximate age at the start of a dated chapter; no birthday is inferred.
-const ageAt = (year:number) => resume.characterAgeReference.age + year - resume.characterAgeReference.year;
 export const characterChapters = {
  intro: {label:'A curious beginning',detail:'Student days',color:'#d4ae72',prop:'wave',era:'young'},
- education: {label:'The computer science graduate',detail:`2009 · Age ${ageAt(2009)}`,color:'#507b6b',prop:'book',era:'young'},
+ education: {label:'The computer science graduate',detail:'2009',color:'#507b6b',prop:'book',era:'young'},
  journey: {label:'Ready for the first chapter',detail:'From study to practice',color:'#bd9c73',prop:'bag',era:'young'},
- flextronics: {label:'Building everyday tools',detail:`2008 · About ${ageAt(2008)}`,color:'#8da799',prop:'laptop',era:'young'},
- gistxl: {label:'Designing the interface',detail:`2009 · About ${ageAt(2009)} at the start`,color:'#6f9b8e',prop:'design',era:'young'},
- version2: {label:'Development meets support',detail:`2011 · About ${ageAt(2011)} at the start`,color:'#8f9cba',prop:'support',era:'adult'},
- memolife: {label:'Making learning playable',detail:`2012 · About ${ageAt(2012)} at the start`,color:'#c49367',prop:'game',era:'adult'},
- etiqa: {label:'Connecting systems & people',detail:`2015 · About ${ageAt(2015)} at the start`,color:'#35695d',prop:'systems',era:'adult'},
+ flextronics: {label:'Building everyday tools',detail:'2008',color:'#8da799',prop:'laptop',era:'young'},
+ gistxl: {label:'Designing the interface',detail:'2009',color:'#6f9b8e',prop:'design',era:'young'},
+ version2: {label:'Development meets support',detail:'2011',color:'#8f9cba',prop:'support',era:'adult'},
+ memolife: {label:'Making learning playable',detail:'2012',color:'#c49367',prop:'game',era:'adult'},
+ etiqa: {label:'Connecting systems & people',detail:'2015',color:'#35695d',prop:'systems',era:'adult'},
  skills: {label:'Sharing the toolkit',detail:'Experience in practice',color:'#486b61',prop:'present',era:'mature'},
  projects: {label:'Bringing the work together',detail:'From idea to application',color:'#647b91',prop:'portfolio',era:'mature'},
  contact: {label:'Ready for the next conversation',detail:'The journey continues',color:'#2d5a50',prop:'resume',era:'mature'},

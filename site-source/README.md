@@ -56,7 +56,7 @@ The website uses system fonts and inline SVGs. Content reveals use CSS view time
 
 ## Chapter character update
 
-Each chapter has its own character design, shown exclusively in the fixed bottom-right rail. No character illustrations appear inside the résumé chapters. `src/Character.tsx` contains the reusable SVG and chapter design map. The age reference is `characterAgeReference` in `src/resume.json`: age 24 in 2009, supplied by the owner. Career labels indicate approximate age at the start of each role. No birthday is inferred or added to the PDF. Clothing and facial styling are illustrative; undated later chapters use a mature character without asserting a current employment date.
+Each chapter has its own character design, shown exclusively in the fixed bottom-right rail. No character illustrations appear inside the résumé chapters. `src/Character.tsx` contains the reusable SVG and chapter design map. Character labels display years only; no age reference is stored in the current résumé data. Clothing and facial styling are illustrative; undated later chapters use a mature character without asserting a current employment date.
 
 Distinct props include a graduation cap/book, work bag, intern badge/laptop, interface board/stylus, support headset, web-game screen, connected-systems diagram, presentation board, project folder, and résumé document. The decorative fixed character is omitted from print. Updated layout checked at desktop and 390px/320px phone widths; TypeScript and production build pass.
 

@@ -23,15 +23,16 @@ def p(s,style='Body2'): return Paragraph(clean(s),styles[style])
 story=[p(r['name'],'Name2'),p(r['title'],'Role2'),Paragraph(f'<link href="mailto:{r["email"]}">{r["email"]}</link> | {r["phone"]}',styles['Body2']),p(r['summary']),p('EDUCATION & PROFESSIONAL DEVELOPMENT','Section2')]
 for e in r['education']:
  story.append(KeepTogether([p(f'{e["year"]} | {e["title"]}','Role2'),p(e['institution']),p(e['description'],'Small2')]))
-story.append(p('SKILLS','Section2'))
+story.append(p(r['professionalDevelopment'],'Small2'))
+story.append(p('CURRENT ENGINEERING PRACTICE','Section2'))
+story.append(p(r['toolkit']['description']))
 for g in r['skillGroups']:
  story.append(p(g['name'],'Role2'));story.append(p(', '.join(g['items'])))
 story.extend([p('LANGUAGES & INTERESTS','Section2'),p('Languages: '+', '.join(r['languages'])),p('Interests: '+', '.join(r['interests'])),PageBreak(),p('PROFESSIONAL EXPERIENCE','Section2')])
 def role(r):
  result=[p(r['company'],'Role2'),p(r['role']+' | '+r['dates']),p(r['summary'])]
  if r.get('progression'):
-  result.append(p('CAREER PROGRESSION','Role2'))
-  result += [p(step['period']+' | '+step['title']) for step in r['progression']]
+  result.append(p('Progression: '+ '; '.join(step['period']+' | '+step['title'] for step in r['progression']), 'Small2'))
  result += [p('- '+b,'Bullet2') for b in r['bullets']]
  if r.get('achievements'):
   result.append(p('KEY ACHIEVEMENTS','Section2'))
@@ -56,6 +57,6 @@ assert all(job['company'] in text for job in r['roles'])
 assert r['email'] in text
 assert all(a['year'] in text and a['title'].replace('’', chr(39)) in text for a in r['roles'][-1]['achievements'])
 assert 'Engineering Manager' in text
-assert '2015-Current' not in text
+assert '2015-Current' in text
 print(f'Created {out.name}: {len(pdf.pages)} pages, selectable text verified.')
 
