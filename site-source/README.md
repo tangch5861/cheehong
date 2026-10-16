@@ -21,7 +21,7 @@ node node_modules/vite/bin/vite.js build
 node node_modules/vite/bin/vite.js preview --host 127.0.0.1
 ```
 
-`pnpm build` and `pnpm preview` are the equivalent package scripts. The finished static site is in `dist/`; serve that folder over HTTP, rather than opening index.html as a local file. Relative asset paths support a GitHub Pages subdirectory such as `/cheehong/`. There are no environment variables or server requirements. Deploy only when authorized; nothing has been published.
+`pnpm build` and `pnpm preview` are the equivalent package scripts. The finished static site is in `dist/`; serve that folder over HTTP, rather than opening index.html as a local file. Relative asset paths support a GitHub Pages subdirectory such as `/cheehong/`. There are no environment variables or server requirements. The production build is published from the repository root on `master` at https://tangch5861.github.io/cheehong/.
 
 ## Edit content
 
