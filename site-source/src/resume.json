@@ -1,0 +1,374 @@
+{
+  "name": "Tang Chee Hong",
+  "shortName": "Chee Hong",
+  "title": "Engineering Manager",
+  "summary": "I build digital insurance platforms and grow engineering teams — connecting hands-on development, architecture modernization and regional delivery.",
+  "email": "cheehongtang@hotmail.com",
+  "phone": "+65 84233640",
+  "source": "https://tangch5861.github.io/cheehong/",
+  "sourceNote": "Etiqa career progression and achievements updated with information supplied directly by Tang Chee Hong for 2015–2026.",
+  "education": [
+    {
+      "year": "2009",
+      "title": "Bachelor’s Degree (Honours) in Computer Science",
+      "institution": "Universiti Sains Malaysia",
+      "description": "Completed a Bachelor’s Degree (Honours) in Computer Science at USM, Malaysia."
+    },
+    {
+      "year": "2009",
+      "title": "Adobe Flash & Dreamweaver",
+      "institution": "Universiti Sains Malaysia",
+      "description": "Certified expert in Adobe Flash and Dreamweaver."
+    },
+    {
+      "year": "2016",
+      "title": "Google Analytics",
+      "institution": "Basic & Advanced Courses",
+      "description": "Attended Google Analytics Basic and Advanced courses."
+    },
+    {
+      "year": "2018",
+      "title": "Project management training",
+      "institution": "PMP® Certification Training Course",
+      "description": "Attended PMP® certification training."
+    }
+  ],
+  "roles": [
+    {
+      "id": "flextronics",
+      "company": "Flextronics International Ltd",
+      "role": "Intern",
+      "dates": "2008",
+      "chapter": "The first lines of code",
+      "stage": "intern",
+      "summary": "Turning industrial training into practical tools for everyday work.",
+      "bullets": [
+        "Created web applications with ASP.NET and C# using Visual Studio 2005 during industrial training.",
+        "Worked on E-Leave, IT Service and Stationery Order applications.",
+        "Customized and designed a SharePoint Portal Server 2003 portal."
+      ],
+      "skills": [
+        "C#",
+        "ASP.NET",
+        "SharePoint"
+      ],
+      "tools": [
+        "Visual Studio 2005",
+        "Photoshop"
+      ],
+      "projects": [
+        "E-Leave Application",
+        "IT Service Application",
+        "Stationery Order Application",
+        "SharePoint"
+      ]
+    },
+    {
+      "id": "gistxl",
+      "company": "Gistxl Technology Pte Ltd",
+      "role": "Application Engineer",
+      "dates": "2009–2011",
+      "chapter": "Finding my own approach",
+      "stage": "developer",
+      "summary": "Taking ownership of interfaces, from the first design to implementation.",
+      "bullets": [
+        "Developed, designed and implemented company websites and user-friendly web application interfaces.",
+        "Independently handled the design of web application sections.",
+        "Used CSS, JavaScript and jQuery alongside Adobe Dreamweaver and Photoshop, with SEO knowledge to support website visibility."
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Flash",
+        "ActionScript",
+        "SEO"
+      ],
+      "tools": [
+        "Dreamweaver",
+        "Photoshop",
+        "Flash"
+      ],
+      "projects": [
+        "GisXL websites",
+        "GistXL TPOT",
+        "GixXL newstalk"
+      ]
+    },
+    {
+      "id": "version2",
+      "company": "Version 2 Singapore Pte Ltd",
+      "role": "Web Programmer & Support Engineer",
+      "dates": "2011–2012",
+      "chapter": "Seeing the user’s side",
+      "stage": "developer",
+      "summary": "Bringing website development, online shopping and hands-on support together.",
+      "bullets": [
+        "Developed, designed and maintained company websites and the online e-store.",
+        "Enhanced existing web features to make online purchasing easier.",
+        "Built promotional web applications, including Facebook applications, with the marketing department.",
+        "Provided product support by answering daily user calls and resolving problems on site."
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "jQuery",
+        "PHP",
+        "Joomla CMS",
+        "MySQL",
+        "Facebook Apps"
+      ],
+      "tools": [
+        "Dreamweaver",
+        "Photoshop"
+      ],
+      "projects": []
+    },
+    {
+      "id": "memolife",
+      "company": "Memolife Pte Ltd",
+      "role": "Front End Web Game Developer",
+      "dates": "2012–2015",
+      "chapter": "Making learning interactive",
+      "stage": "creative",
+      "summary": "Building the front end of websites, web games and learning applications.",
+      "bullets": [
+        "Owned front-end UI development for websites, web games and web applications.",
+        "Worked closely with back-end colleagues to create web applications using HTML5, CSS3, jQuery, Backbone.js and MongoDB."
+      ],
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "Bootstrap",
+        "Backbone.js",
+        "MongoDB"
+      ],
+      "tools": [
+        "GitHub",
+        "Slack",
+        "Trello",
+        "Notepad++",
+        "Photoshop"
+      ],
+      "projects": [
+        "Memolanguage Web App",
+        "Memogenius Web Games"
+      ]
+    },
+    {
+      "id": "etiqa",
+      "company": "Etiqa Insurance",
+      "role": "Engineering Manager",
+      "dates": "2015–2026",
+      "chapter": "Connecting the bigger picture",
+      "stage": "lead",
+      "summary": "Progressed from web development to engineering management, building digital insurance platforms and expanding regional delivery across Singapore and Malaysia.",
+      "bullets": [
+        "Built web applications from scratch, designed and developed RESTful APIs for vendors, and integrated with core systems through web services.",
+        "Worked on DBS payment integration and the MyInfo government API.",
+        "Led the team to deliver projects on time and within scope, managed deployments and coordinated resources for project launches.",
+        "Trained team members and managed relationships with the team and stakeholders."
+      ],
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "AngularJS",
+        "Bootstrap",
+        "ASP.NET MVC",
+        "MSSQL",
+        "RESTful APIs",
+        "Microservices architecture",
+        "Platform migration",
+        "Engineering management"
+      ],
+      "tools": [
+        "TFS",
+        "Slack",
+        "Trello",
+        "Notepad++",
+        "Photoshop"
+      ],
+      "projects": [
+        "Online System — GI and Life products"
+      ],
+      "progression": [
+        {
+          "period": "2015",
+          "title": "Web Developer"
+        },
+        {
+          "period": "2017",
+          "title": "Senior Web Developer"
+        },
+        {
+          "period": "2023",
+          "title": "Manager, Web Development"
+        },
+        {
+          "period": "2023–2026",
+          "title": "Engineering Manager"
+        }
+      ],
+      "achievements": [
+        {
+          "year": "2015",
+          "title": "Launched the First Online Insurance Platform",
+          "description": "Helped build Etiqa Singapore’s first online insurance platform and launched its first online Travel Insurance product within six months, laying the foundation for digital distribution."
+        },
+        {
+          "year": "2016",
+          "title": "Expanded the Digital Product Portfolio",
+          "description": "Delivered multiple Personal Accident insurance products and improved SEO and user experience to support online sales growth."
+        },
+        {
+          "year": "2017",
+          "title": "Launched Singapore’s First Online Endowment Plan",
+          "description": "Led the launch of Etiqa Singapore’s first online endowment insurance plan within two weeks, expanding digital distribution into life insurance."
+        },
+        {
+          "year": "2018",
+          "title": "Established the Johor Bahru Technology Office",
+          "description": "Set up the JB development office to support Singapore, recruiting and mentoring developers to expand engineering delivery capacity."
+        },
+        {
+          "year": "2023",
+          "title": "Transformed Legacy Architecture",
+          "description": "Led the transition from a monolithic system to a microservices architecture. Extended the modernization to Malaysia and launched a new Travel Insurance product within four months."
+        },
+        {
+          "year": "2024",
+          "title": "Completed Malaysia’s Platform Migration",
+          "description": "Migrated six major insurance products and decommissioned the legacy online system, contributing to Etiqa regaining Malaysia’s No. 1 position in online Travel Insurance."
+        },
+        {
+          "year": "2025",
+          "title": "Scaled Engineering Capacity",
+          "description": "Expanded the Johor Bahru technology centre to more than 80 engineers, strengthening in-house development capability and regional delivery capacity."
+        },
+        {
+          "year": "2026",
+          "title": "Developed a Unified Regional Platform",
+          "description": "Built a single-codebase, single-instance platform to support regional markets, enabling shared capabilities and reducing duplicated development across countries."
+        }
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "name": "Interfaces & interaction",
+      "description": "Web interfaces, online stores and learning games across Gistxl, Version 2 and Memolife.",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "AngularJS",
+        "Backbone.js",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Applications & integration",
+      "description": "Internal applications at Flextronics and connected insurance systems at Etiqa.",
+      "items": [
+        "C#",
+        "ASP.NET MVC",
+        "RESTful APIs",
+        "MSSQL",
+        "PHP",
+        "MySQL",
+        "MongoDB",
+        "SharePoint",
+        "Joomla CMS",
+        "Microservices architecture",
+        "Platform migration"
+      ]
+    },
+    {
+      "name": "Design & development tools",
+      "description": "Tools used throughout interface design, implementation and team collaboration.",
+      "items": [
+        "Photoshop",
+        "Dreamweaver",
+        "Flash / ActionScript",
+        "Visual Studio",
+        "GitHub",
+        "TFS",
+        "Slack",
+        "Trello",
+        "Notepad++"
+      ]
+    },
+    {
+      "name": "Delivery & collaboration",
+      "description": "Engineering management, recruitment, mentoring and regional delivery at Etiqa, with user support experience at Version 2.",
+      "items": [
+        "Team leadership",
+        "Deployment coordination",
+        "Resource planning",
+        "Stakeholder relationships",
+        "User support",
+        "SEO",
+        "Engineering management",
+        "Recruitment & mentoring",
+        "Regional delivery"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Everyday work, made digital",
+      "context": "Flextronics · 2008",
+      "challenge": "Internal leave, IT service and stationery requests.",
+      "contribution": "Created ASP.NET and C# web applications during industrial training.",
+      "result": "E-Leave, IT Service and Stationery Order applications, alongside SharePoint portal work.",
+      "tags": [
+        "ASP.NET",
+        "C#"
+      ]
+    },
+    {
+      "name": "A more interactive way to learn",
+      "context": "Memolife · 2012–2015",
+      "challenge": "Front-end experiences for learning applications and web games.",
+      "contribution": "Developed the UI in close collaboration with back-end colleagues.",
+      "result": "Contributed to the Memolanguage Web App and Memogenius Web Games.",
+      "tags": [
+        "HTML5",
+        "jQuery",
+        "Backbone.js"
+      ]
+    },
+    {
+      "name": "A shared regional platform",
+      "context": "Etiqa · 2015–2026",
+      "challenge": "Regional markets with duplicated development and legacy online insurance systems.",
+      "contribution": "Led architecture modernization and Malaysia’s platform migration, then built a single-codebase, single-instance regional platform.",
+      "result": "Migrated six major insurance products in 2024 and developed a unified regional platform in 2026, enabling shared capabilities across countries.",
+      "tags": [
+        "Microservices",
+        "Platform migration",
+        "Regional delivery"
+      ]
+    }
+  ],
+  "languages": [
+    "Chinese",
+    "English",
+    "Malay",
+    "Hokkien"
+  ],
+  "interests": [
+    "Programming",
+    "Research",
+    "Swimming"
+  ],
+  "closing": "Thoughtful interfaces. Connected systems. A collaborative approach.",
+  "contactMessage": "Let’s talk about building something useful.",
+  "characterAgeReference": {
+    "year": 2009,
+    "age": 24
+  }
+}
