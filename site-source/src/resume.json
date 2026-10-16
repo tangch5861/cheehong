@@ -146,12 +146,13 @@
       "dates": "2015–Current",
       "chapter": "Connecting the bigger picture",
       "stage": "lead",
-      "summary": "Progressed from web development to engineering management, building digital insurance platforms and expanding regional delivery across Singapore and Malaysia.",
+      "summary": "Progressed from web development to engineering management, building digital insurance platforms and supporting regional engineering delivery across Singapore, Malaysia, the Philippines, Indonesia and Cambodia.",
       "bullets": [
         "Built web applications from scratch, designed and developed RESTful APIs for vendors, and integrated with core systems through web services.",
-        "Worked on DBS payment integration and the MyInfo government API.",
+        "Worked on integrations with banking partners and government services across regional markets.",
         "Led the team to deliver projects on time and within scope, managed deployments and coordinated resources for project launches.",
-        "Trained team members and managed relationships with the team and stakeholders."
+        "Trained team members and managed relationships with the team and stakeholders.",
+        "Built established relationships with university professors to identify promising engineering graduates, with professor referrals forming a key source of strong academic talent."
       ],
       "skills": [
         "HTML5",
@@ -207,7 +208,8 @@
         {
           "year": "2017",
           "title": "Launched Singapore’s First Online Endowment Plan",
-          "description": "Led the launch of Etiqa Singapore’s first online endowment insurance plan within two weeks, expanding digital distribution into life insurance."
+          "description": "Led the launch of Etiqa Singapore’s first online endowment insurance plan within two weeks, expanding digital distribution into life insurance.",
+          "sourceUrl": "https://www.etiqa.com.sg/news/etiqa-insurance-launches-the-first-online-insurance-savings-plan-following-recent-mas-guidelines-on-online-distribution-of-life-policies-with-no-advice/"
         },
         {
           "year": "2018",
@@ -260,12 +262,13 @@
     },
     {
       "name": "Leadership & collaboration",
-      "description": "Connecting AI-assisted work with team development, stakeholder needs and regional delivery.",
+      "description": "Connecting AI-assisted work with team development, stakeholder needs and regional delivery, with university relationships supporting graduate recruitment.",
       "items": [
         "M365 Copilot",
         "Engineering leadership",
         "Recruitment & mentoring",
-        "Regional delivery"
+        "Regional delivery",
+        "University talent relationships"
       ]
     }
   ],

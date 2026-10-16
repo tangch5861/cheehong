@@ -38,7 +38,9 @@ def role(r):
   result.append(p('KEY ACHIEVEMENTS','Section2'))
   for a in r['achievements']:
    if a['year']=='2023': result.extend([PageBreak(),p(r['company']+' - ACHIEVEMENTS (CONTINUED)','Section2')])
-   result.append(KeepTogether([p(a['year']+' | '+a['title'],'Role2'),p(a['description'])]))
+   parts=[p(a['year']+' | '+a['title'],'Role2'),p(a['description'])]
+   if a.get('sourceUrl'): parts.append(Paragraph('<link href="'+escape(a['sourceUrl'])+'" color="#234b40">Read launch announcement (Etiqa)</link>',styles['Small2']))
+   result.append(KeepTogether(parts))
  if r['projects']:result.append(p('Projects: '+', '.join(r['projects']),'Small2'))
  result += [p('Technologies: '+', '.join(r['skills']),'Small2'),p('Tools: '+', '.join(r['tools']),'Small2'),Spacer(1,9)]
  return result
