@@ -155,23 +155,20 @@
         "Built established relationships with university professors to identify promising engineering graduates, with professor referrals forming a key source of strong academic talent."
       ],
       "skills": [
-        "HTML5",
-        "CSS3",
-        "AngularJS",
-        "Bootstrap",
-        "ASP.NET MVC",
-        "MSSQL",
-        "RESTful APIs",
-        "Microservices architecture",
-        "Platform migration",
-        "Engineering management"
+        "AI-assisted development",
+        "Architecture design",
+        "Iterative development & validation",
+        "Microservices & platform modernization",
+        "Regional engineering delivery",
+        "Engineering leadership",
+        "Talent development"
       ],
       "tools": [
-        "TFS",
-        "Slack",
-        "Trello",
-        "Notepad++",
-        "Photoshop"
+        "Codex",
+        "VS Code with GitHub Copilot",
+        "M365 Copilot",
+        "Playwright",
+        "AI models & coding agents"
       ],
       "projects": [
         "Online System — GI and Life products"

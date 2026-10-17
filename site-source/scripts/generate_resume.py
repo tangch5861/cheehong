@@ -42,7 +42,7 @@ def role(r):
    if a.get('sourceUrl'): parts.append(Paragraph('<link href="'+escape(a['sourceUrl'])+'" color="#234b40">Read launch announcement (Etiqa)</link>',styles['Small2']))
    result.append(KeepTogether(parts))
  if r['projects']:result.append(p('Projects: '+', '.join(r['projects']),'Small2'))
- result += [p('Technologies: '+', '.join(r['skills']),'Small2'),p('Tools: '+', '.join(r['tools']),'Small2'),Spacer(1,9)]
+ result += [p(('Current engineering focus: ' if r['id']=='etiqa' else 'Technologies: ')+', '.join(r['skills']),'Small2'),p(('Current tools: ' if r['id']=='etiqa' else 'Tools: ')+', '.join(r['tools']),'Small2'),Spacer(1,9)]
  return result
 for job in reversed(r['roles'][3:]): story.extend(role(job))
 story.extend([p(r['sourceNote'],'Small2'),PageBreak(),p('PROFESSIONAL EXPERIENCE (CONTINUED)','Section2')])
