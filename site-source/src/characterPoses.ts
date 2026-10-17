@@ -10,6 +10,6 @@ const actions: Record<ChapterId, string> = {
 export const characterPoses = Object.fromEntries(
   Object.entries(actions).map(([chapter, action]) => [chapter, {
     action,
-    frames: [1, 2, 3, 4].map(pose => `${import.meta.env.BASE_URL}characters/${chapter}-frame-${pose}.${chapter === 'education' ? 'png' : 'webp'}`),
+    frames: chapter === 'intro' ? Array(4).fill(`${import.meta.env.BASE_URL}characters/intro-wave-v2-frame-1.png`) : [1, 2, 3, 4].map(pose => `${import.meta.env.BASE_URL}characters/${chapter}-frame-${pose}.${chapter === 'education' ? 'png' : 'webp'}`),
   }]),
 ) as Record<ChapterId, { action: string; frames: string[] }>;
