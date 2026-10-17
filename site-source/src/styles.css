@@ -48,18 +48,18 @@
 /* Whole-pose crossfades. Isolated additive blending prevents the paper
    background showing through at the midpoint of each transition. */
 .pose-sequence{position:relative;width:100%;height:100%;overflow:hidden;isolation:isolate}
-.pose-frame{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;mix-blend-mode:plus-lighter;opacity:0;animation-duration:2.4s;animation-delay:.25s;animation-timing-function:linear;animation-fill-mode:both}
+.pose-frame{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;mix-blend-mode:plus-lighter;opacity:0;animation-duration:5.6s;animation-iteration-count:infinite;animation-delay:.25s;animation-timing-function:linear;animation-fill-mode:both}
 .pose-frame--1{opacity:1;animation-name:chapter-pose-1}
 .pose-frame--2{animation-name:chapter-pose-2}
 .pose-frame--3{animation-name:chapter-pose-3}
 .pose-frame--4{animation-name:chapter-pose-4}
 .pose-sequence[data-ready=false] .pose-frame{animation:none;opacity:1}
 .character-artwork[data-paused=true] *{animation-play-state:paused!important}
-@keyframes chapter-pose-1{0%,18%{opacity:1}24%,100%{opacity:0}}
-@keyframes chapter-pose-2{0%,18%{opacity:0}24%,43%{opacity:1}49%,100%{opacity:0}}
-@keyframes chapter-pose-3{0%,43%{opacity:0}49%,68%{opacity:1}74%,100%{opacity:0}}
-@keyframes chapter-pose-4{0%,68%{opacity:0}74%,100%{opacity:1}}
-@media(max-width:600px){.pose-frame{animation-duration:1.8s}}
+@keyframes chapter-pose-1{0%,12%,100%{opacity:1}20%,88%{opacity:0}}
+@keyframes chapter-pose-2{0%,12%,44%,100%{opacity:0}20%,36%{opacity:1}}
+@keyframes chapter-pose-3{0%,36%,68%,100%{opacity:0}44%,60%{opacity:1}}
+@keyframes chapter-pose-4{0%,60%,100%{opacity:0}68%,88%{opacity:1}}
+@media(max-width:600px){.pose-frame{animation-duration:6.8s}}
 @media(prefers-reduced-motion:reduce){.pose-frame{animation:none!important;opacity:0!important}.pose-frame--4,.pose-sequence[data-ready=false] .pose-frame--1{opacity:1!important}}
 .role-progression,.role-achievements{margin:32px 0}
 .role-progression h4,.role-achievements h4{font-size:12px;letter-spacing:1.3px;text-transform:uppercase;color:var(--teal);margin:0 0 20px}
@@ -80,3 +80,5 @@
 .continued-learning{border-top:1px solid var(--line);padding:24px 0}.continued-learning p{font-size:15px;color:var(--muted);max-width:58ch}.career-note{font-size:13px;line-height:1.9;color:var(--muted);margin:28px 0}.career-note strong{color:var(--teal)}.engineering-loop{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:28px 0 36px;margin:0;border-bottom:1px solid currentColor}.engineering-loop h3{font-size:23px;margin:8px 0}.engineering-loop p{font-size:14px;line-height:1.7;margin:0}.engineering-loop .small-label{color:inherit;opacity:.75}@media(max-width:1000px){.engineering-loop{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.engineering-loop{grid-template-columns:1fr;gap:22px}.engineering-loop h3{font-size:21px}.engineering-loop p,.continued-learning p{font-size:12px}}
 
 .achievement-source{font-size:12px;margin-top:8px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.student-wave{display:block;width:100%;height:100%;overflow:hidden}
