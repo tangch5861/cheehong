@@ -48,9 +48,9 @@
 /* Whole-pose crossfades. Isolated additive blending prevents the paper
    background showing through at the midpoint of each transition. */
 .pose-sequence{position:relative;width:100%;height:100%;overflow:hidden;isolation:isolate}
-/* These exported poses contain stray artwork below the shoe baseline (498/512).
+/* These exported poses contain stray artwork below the shoe baseline (496/512).
    Clip the export margin without moving the character or its caption. */
-.pose-sequence[data-action=design-with-stylus],.pose-sequence[data-action=answer-and-code],.pose-sequence[data-action=demonstrate-web-game]{clip-path:inset(0 0 2.734375%)}
+.pose-sequence[data-action=design-with-stylus],.pose-sequence[data-action=answer-and-code],.pose-sequence[data-action=demonstrate-web-game]{clip-path:inset(0 0 3.125%)}
 .pose-frame{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;mix-blend-mode:plus-lighter;opacity:0;animation-duration:5.6s;animation-iteration-count:infinite;animation-delay:.25s;animation-timing-function:linear;animation-fill-mode:both}
 .pose-frame--1{opacity:1;animation-name:chapter-pose-1}
 .pose-frame--2{animation-name:chapter-pose-2}
