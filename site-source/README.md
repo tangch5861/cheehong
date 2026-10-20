@@ -25,17 +25,17 @@ node node_modules/vite/bin/vite.js preview --host 127.0.0.1
 
 ## Edit content
 
-- `src/resume.json`: name, summary, contact details, education, chronological roles, skills, projects, languages, interests, and source note. This is the single résumé content source for the site and PDF.
+- `src/resume.json`: name, summary, contact details, education, chronological roles, skills, projects, languages, interests, and source note. This is the website content source; align updates with the owner-supplied PDF.
 - `src/main.tsx`: reusable headings/tags, sections, the SVG `Character` component, chapter-to-stage mapping, and section tracking.
 - `src/styles.css`: palette, responsive layout, illustration motion, focus styles, print styles, and reduced-motion handling.
 - `public/Tang-Chee-Hong-Resume.pdf`: the downloadable recruiter résumé.
-- `scripts/generate_resume.py`: regenerate the PDF after content edits with Python, ReportLab and pypdf: `python scripts/generate_resume.py`. Rebuild afterward to copy the latest PDF to dist. The supplied PDF is already generated; Python is not needed to run the website.
+- `scripts/generate_resume.py`: legacy generator; writes a separate draft and must not overwrite the owner-supplied downloadable PDF.
 
 The character is decorative and excluded from the accessibility tree. Its reserved side strip prevents content overlap. The mobile strip is narrower, uses safe-area insets, and removes repeated gestures. Native anchor links and normal scrolling remain in control. IntersectionObserver plus a requestAnimationFrame-throttled scroll-position calculation keep sections stable under fast or reversed scrolling. No animation library is required. Content remains readable when motion is disabled or unsupported; a no-JavaScript link provides the complete PDF.
 
 ## Content decisions
 
-- Etiqa's 2015–2026 role dates and eight achievements were supplied directly by the owner. Both 2023 title entries are retained without inventing promotion months.
+- Etiqa progression follows the updated owner-supplied PDF: Senior Web Developer (2015–2019), Manager, Web Development (2019–2023), Engineering Manager (2023–Present).
 - PMP is listed as training, not as an earned credential.
 - Google Analytics courses are training; the Adobe expert qualification follows the source.
 - No metrics, employers, dates, qualifications, proficiency ratings or profile links were invented. Historical technology and project names are retained.
@@ -82,3 +82,6 @@ Résumé content and the downloadable four-page PDF were updated from resume.jso
 All eleven chapters use four whole character poses with the approved Education CSS crossfade. Edit stage assets and action labels in `src/characterPoses.ts`, playback in `src/ChapterAction.tsx`, and `.pose-sequence` / `.pose-frame` rules in `src/styles.css`. The previous sliced-arm renderer has been replaced. See `public/characters/STORY-ARTWORK.md` for asset names, generation prompt, and motion behavior.
 
 Character motion: chapter pose sequences loop continuously with a balanced last-to-first crossfade. The introduction uses four matching full-character wave poses from a transparent sprite sheet, rendered as whole-cell SVG viewports and crossfaded using the same animation as other chapters. No displacement filter or body-part slicing is used. Hidden tabs pause motion; reduced-motion preference disables it.
+
+## Current download (20 October 2026)
+The download is an unchanged copy of the owner-supplied two-page Senior Leadership Resume Updated PDF. Replace `public/Tang-Chee-Hong-Resume.pdf` only with an approved supplied document. Update `resumeDownload.version` in the content file to refresh cached downloads.

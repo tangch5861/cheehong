@@ -2,7 +2,7 @@
   "name": "Tang Chee Hong",
   "shortName": "Chee Hong",
   "title": "Engineering Manager",
-  "summary": "I build digital insurance platforms and grow engineering teams — connecting hands-on development, architecture modernization and regional delivery.",
+  "summary": "Engineering leader with 15+ years in software development and digital insurance delivery. I lead 80 engineers across 10 squads through team leads, connecting people leadership, technical direction and regional platform delivery.",
   "email": "cheehongtang@hotmail.com",
   "phone": "+65 84233640",
   "source": "https://tangch5861.github.io/cheehong/",
@@ -10,9 +10,9 @@
   "education": [
     {
       "year": "2009",
-      "title": "Bachelor’s Degree (Honours) in Computer Science",
+      "title": "Bachelor of Computer Science (Honours)",
       "institution": "Universiti Sains Malaysia",
-      "description": "Completed a Bachelor’s Degree (Honours) in Computer Science at USM, Malaysia."
+      "description": "Completed a Bachelor of Computer Science (Honours) at Universiti Sains Malaysia."
     }
   ],
   "roles": [
@@ -146,22 +146,23 @@
       "dates": "2015–Current",
       "chapter": "Connecting the bigger picture",
       "stage": "lead",
-      "summary": "Progressed from web development to engineering management, building digital insurance platforms and supporting regional engineering delivery across Singapore, Malaysia, the Philippines, Indonesia and Cambodia.",
+      "summary": "Lead 80 direct and indirect reports across 10 squads through multiple team leads, with accountability for people management, technical direction and engineering execution. Support digital insurance platforms across Singapore, Malaysia, the Philippines, Indonesia and Cambodia.",
       "bullets": [
-        "Built web applications from scratch, designed and developed RESTful APIs for vendors, and integrated with core systems through web services.",
-        "Worked on integrations with banking partners and government services across regional markets.",
-        "Led the team to deliver projects on time and within scope, managed deployments and coordinated resources for project launches.",
-        "Trained team members and managed relationships with the team and stakeholders.",
-        "Built established relationships with university professors to identify promising engineering graduates, with professor referrals forming a key source of strong academic talent."
+        "Lead engineering delivery across 10 squads through team leads, coordinating priorities, staffing, talent development and cross-team execution.",
+        "Oversee performance appraisals, hiring, promotions, talent development and resource allocation.",
+        "Set technical direction, align architecture through cross-team forums, and work within CTO-level decision governance.",
+        "Partner with the Program Director and IT Finance on engineering budget planning, workforce requirements and resource prioritization.",
+        "Lead engineering for general and life insurance products, integrating core systems, banks, government services and external partners.",
+        "Maintain established relationships with university professors, with referrals forming a key source of strong graduate engineering talent."
       ],
       "skills": [
-        "AI-assisted development",
-        "Architecture design",
-        "Iterative development & validation",
-        "Microservices & platform modernization",
-        "Regional engineering delivery",
-        "Engineering leadership",
-        "Talent development"
+        "Multi-squad engineering leadership",
+        "Team-lead management",
+        "Technical direction & governance",
+        "Workforce & capacity planning",
+        "Budget-planning collaboration",
+        "Regional platform modernization",
+        "AI-augmented development"
       ],
       "tools": [
         "Codex",
@@ -175,19 +176,15 @@
       ],
       "progression": [
         {
-          "period": "2015",
-          "title": "Web Developer"
-        },
-        {
-          "period": "2017",
+          "period": "2015–2019",
           "title": "Senior Web Developer"
         },
         {
-          "period": "2023",
+          "period": "2019–2023",
           "title": "Manager, Web Development"
         },
         {
-          "period": "2023–Current",
+          "period": "2023–Present",
           "title": "Engineering Manager"
         }
       ],
@@ -224,9 +221,9 @@
           "description": "Migrated six major insurance products and decommissioned the legacy online system, contributing to Etiqa regaining Malaysia’s No. 1 position in online Travel Insurance."
         },
         {
-          "year": "2025",
-          "title": "Scaled Engineering Capacity",
-          "description": "Expanded the Johor Bahru technology centre to more than 80 engineers, strengthening in-house development capability and regional delivery capacity."
+          "year": "2025–Present",
+          "title": "Lead an 80-Engineer Organization",
+          "description": "Lead 80 engineers across 10 squads through multiple team leads, overseeing performance appraisals, hiring, promotions, talent development and resource allocation."
         },
         {
           "year": "2026",
@@ -238,34 +235,50 @@
   ],
   "skillGroups": [
     {
-      "name": "Architecture & engineering judgment",
-      "description": "A foundation in hands-on engineering informs system design, integration decisions and technical review.",
+      "name": "Engineering organization leadership",
+      "description": "Lead 80 engineers across 10 squads through team leads, building capability and aligning people with delivery priorities.",
       "items": [
-        "Architecture design",
-        "Microservices",
-        "System integration",
-        "Platform modernization"
+        "Multi-squad leadership",
+        "Team-lead management",
+        "Appraisals & promotions",
+        "Recruitment & talent development",
+        "Workforce & capacity planning"
       ]
     },
     {
-      "name": "AI-assisted development",
-      "description": "I work across AI models and tools, selecting them for the task and directing an iterative development loop.",
+      "name": "Engineering governance",
+      "description": "Set technical direction and align architecture through cross-team forums within CTO-level decision governance. Partner with the Program Director and IT Finance on budget planning and resource priorities.",
+      "items": [
+        "Technical direction",
+        "Architecture forums",
+        "Stakeholder alignment",
+        "Release coordination",
+        "Budget-planning collaboration",
+        "Regional delivery"
+      ]
+    },
+    {
+      "name": "Architecture & platforms",
+      "description": "A hands-on engineering foundation informs modernization, shared regional architecture and integrations across the insurance ecosystem.",
+      "items": [
+        "Microservices",
+        "Monolith modernization",
+        "Regional shared platforms",
+        "RESTful APIs",
+        "Core insurance & partner integrations"
+      ]
+    },
+    {
+      "name": "AI-augmented development",
+      "description": "Guide coding agents with architectural oversight, code review and validation. Use AI tools within an iterative engineering loop, supported by experience in C#, .NET, JavaScript and SQL databases.",
       "items": [
         "Codex",
-        "VS Code with GitHub Copilot",
-        "AI models & coding agents",
-        "Playwright"
-      ]
-    },
-    {
-      "name": "Leadership & collaboration",
-      "description": "Connecting AI-assisted work with team development, stakeholder needs and regional delivery, with university relationships supporting graduate recruitment.",
-      "items": [
+        "GitHub Copilot",
+        "Coding agents",
+        "Playwright",
         "M365 Copilot",
-        "Engineering leadership",
-        "Recruitment & mentoring",
-        "Regional delivery",
-        "University talent relationships"
+        "Architecture oversight",
+        "Code review & validation"
       ]
     }
   ],
@@ -307,8 +320,8 @@
     }
   ],
   "languages": [
-    "Chinese",
     "English",
+    "Chinese",
     "Malay",
     "Hokkien"
   ],
@@ -317,12 +330,12 @@
     "Research",
     "Swimming"
   ],
-  "closing": "Thoughtful interfaces. Connected systems. A collaborative approach.",
+  "closing": "Engineering organization leadership. Regional digital insurance platforms. Architecture modernization.",
   "contactMessage": "Let’s talk about building something useful.",
-  "professionalDevelopment": "Continued learning includes Google Analytics Basic and Advanced courses, PMP® certification training, and further courses and certifications.",
+  "professionalDevelopment": "Additional training includes Google Analytics Basic and Advanced, PMP certification training (not PMP certification), and further courses and certifications.",
   "toolkit": {
     "title": "Engineering judgment. AI-driven delivery.",
-    "description": "My practice has evolved from writing every line to designing the architecture and guiding the development loop. AI handles much of the implementation; I focus on intent, context, review and validation.",
+    "description": "I combine engineering organization leadership with hands-on technical judgment. AI supports implementation; I guide architecture, review code and validate outcomes through an iterative development loop.",
     "steps": [
       {
         "name": "Define",
@@ -341,5 +354,10 @@
         "text": "Feed findings back into the next iteration and improve the result."
       }
     ]
+  },
+  "resumeDownload": {
+    "file": "Tang-Chee-Hong-Resume.pdf",
+    "version": "20261020",
+    "filename": "Tang_Chee_Hong_Senior_Leadership_Resume_Updated.pdf"
   }
 }

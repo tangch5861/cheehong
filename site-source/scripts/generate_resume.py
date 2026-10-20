@@ -9,7 +9,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, 
 
 root = Path(__file__).resolve().parents[1]
 r = json.loads((root / 'src/resume.json').read_text(encoding='utf-8-sig'))
-out = root / 'public/Tang-Chee-Hong-Resume.pdf'
+out = root / 'Tang-Chee-Hong-Resume-generated-draft.pdf'
 styles = getSampleStyleSheet()
 styles.add(ParagraphStyle(name='Name2',fontName='Helvetica-Bold',fontSize=24,leading=29,textColor=colors.HexColor('#234b40'),spaceAfter=8))
 styles.add(ParagraphStyle(name='Section2',fontName='Helvetica-Bold',fontSize=12,leading=16,textColor=colors.HexColor('#234b40'),spaceBefore=16,spaceAfter=9))
